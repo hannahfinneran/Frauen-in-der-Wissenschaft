@@ -1,0 +1,89 @@
+.header{
+  display:flex; 
+  flex-direction: row; 
+  justify-content:space-between;
+  height:60px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  background-color: rgba(101, 104, 177, 0.979);
+   }
+
+
+  .left-section{
+  width:150px;
+  display:grid;
+  text-align:left;
+  }
+
+  .fa-bars{
+    margin-top:13px;
+    margin-left:15px;
+    color:rgba(245, 245, 245, 0.938);
+    
+  }
+
+  .middle-section{
+    
+    flex: 1;
+    margin-left:5px;
+    margin-right:5px;
+    max-width:500px;
+    display:flex;
+    align-items:center;
+  }
+
+  .search-bar{
+    flex: 1;
+    height:33px;
+    border-width:1px;
+    border-style: solid;
+    color:rgba(245, 245, 245, 0.87);
+    margin-right:10px;
+    border-radius:2px;
+    box-shadow:inset 1px 2px 5px rgba (0, 0, 0.05);
+    color:black;
+    border-radius: 20px;;
+  }
+
+  .search-bar::placeholder{
+    font-size:17px;
+    padding-left:16px;
+  }
+
+  .fa-magnifying-glass{
+    color:rgba(245, 245, 245, 0.87);
+  }
+
+  .right-section{
+     width:200px;
+    text-align: center;
+  }
+
+
+  .icons-right{
+    margin-top:13px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+
+.fa-html5{
+ font-size:36px;
+}
+
+
+
+  
+
+  .pic1{
+display:flex;
+margin-left:690px;
+margin-top:110px;
+border-radius:15px;
+  }
+
+  .MINT{
+    width: 400px;
+  }
+

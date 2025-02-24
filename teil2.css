@@ -1,0 +1,181 @@
+.teil2{
+  display:flex;
+  justify-content:space-between;
+}
+.text-top{
+  width:300px;
+  padding-top:40px;
+
+}
+.fa-microscope{
+  font-size: 150px;
+  margin-left:65px;
+  margin-top:110px;
+  transition: transform 0.3s ease;
+}
+.fa-microscope:hover{
+  transform: scale(1.1);
+}
+
+.text-middle{
+  flex-direction:column;
+  padding-bottom:120px;
+}
+.pic1{
+  border: radius 0;
+  width:450px;
+  margin-left:13px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.pic1:hover{
+  transform: scale(1.1);
+  filter: brightness(120%);
+}
+.code{
+  font-size: 26px;
+  margin-top:15px;
+}
+
+
+.text-right{
+  display:flex;
+}
+.fa-masks-theater{
+  font-size: 70px;
+  transition: transform 0.3s ease;
+}
+.fa-masks-theater:hover{
+  transform: scale(1.1);
+}
+.fa-robot{
+  font-size: 70px;
+  align-self: flex-end;
+  transition: transform 0.3s ease;
+}
+.fa-robot:hover{
+  transform: scale(1.1);
+}
+.fa-code{
+  font-size: 70px;
+  align-self: center;
+  margin-right:40px;
+  transition: transform 0.3s ease;
+}
+.fa-code:hover{
+  transform: scale(1.1);
+}
+
+
+
+.button1{
+  font-size:20px;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.button1:hover{
+  background-color: rgba(233, 156, 243, 0.8);
+  transform:scale(1.1);
+  filter:brightness(120%)
+}
+.button1:active{
+  box-shadow: 0 0 20px rgba(244, 171, 253, 0.8);
+  transform: scale(1.05);
+  background-color: rgba(255, 145, 0, 0.2);
+}
+
+
+.button2{
+  font-size:20px;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.button2:hover{
+  background-color: rgba(233, 156, 243, 0.8);
+  transform:scale(1.1);
+  filter:brightness(120%)
+}
+.button2:active{
+  box-shadow: 0 0 20px rgba(248, 193, 255, 0.8);
+  transform: scale(1.05);
+  background-color: rgba(255, 145, 0, 0.2);
+}
+
+
+.button3{
+  font-size:20px;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.button3:hover{
+  background-color: rgba(233, 156, 243, 0.8);
+  transform:scale(1.1);
+  filter:brightness(120%)
+}
+.button3:active{
+  box-shadow: 0 0 20px rgba(248, 193, 255, 0.8);
+  transform: scale(1.05);
+  background-color: rgba(255, 145, 0, 0.2);
+}
+
+
+.button4{
+  font-size:20px;
+  background-color: transparent;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.button4:hover{
+  background-color: rgba(233, 156, 243, 0.8);
+  transform:scale(1.1);
+  filter:brightness(120%)
+}
+.button4:active{
+  box-shadow: 0 0 20px rgba(248, 193, 255, 0.8);
+  transform: scale(1.05);
+  background-color: rgba(255, 145, 0, 0.2);
+}
+
+
+.button-container{
+  display:flex;
+  justify-content:space-evenly;
+  margin-top:50px;
+  flex-wrap:wrap;
+}
+
+
+.arrow0{
+  width:1290px;
+  margin-top:60px;
+height:7px;
+background-color: black;
+}
+
+.arrow{
+  width:1290px;
+  margin-top:50px;
+height:7px;
+background-color: black;
+}
+
+
+.fa-arrow-right{
+  margin-top:13px;
+  font-size: 25px;
+}
